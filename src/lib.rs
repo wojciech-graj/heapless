@@ -187,6 +187,8 @@ mod de;
 #[cfg(feature = "serde")]
 mod ser;
 
+#[cfg(feature = "bin-proto")]
+mod bin_proto;
 pub mod binary_heap;
 #[cfg(feature = "bytes")]
 mod bytes;
